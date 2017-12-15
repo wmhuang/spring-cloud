@@ -1,0 +1,20 @@
+eureka.client.serviceUrl.defaultZone=http://localhost:8888/eureka/
+
+server.port= 8764
+spring.application.name=consumer
+
+spring.cloud.config.label=master
+spring.cloud.config.profile=dev
+#spring.cloud.config.uri= http://localhost:9999/
+
+spring.cloud.config.discovery.enabled=true
+spring.cloud.config.discovery.serviceId=config-server
+
+spring.rabbitmq.host=localhost
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=wmhuang
+spring.rabbitmq.password=wmhuang
+
+management.security.enabled=false
+
+provider.application.service.id=provider

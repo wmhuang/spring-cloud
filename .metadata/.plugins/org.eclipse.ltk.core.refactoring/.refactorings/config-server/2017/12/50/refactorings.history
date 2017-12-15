@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;address-dev.properties, config-client-dev.properties, consumer_b-dev.properties, consumer-dev.properties, provider-dev.properties, user-dev.properties, zuul-dev.properties&apos; to &apos;configFiles&apos;" description="Move 7 resources to &apos;configFiles&apos;" destination="src/main/resources/configFiles" element1="src/main/resources/address-dev.properties" element2="src/main/resources/config-client-dev.properties" element3="src/main/resources/consumer_b-dev.properties" element4="src/main/resources/consumer-dev.properties" element5="src/main/resources/provider-dev.properties" element6="src/main/resources/user-dev.properties" element7="src/main/resources/zuul-dev.properties" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="7" stamp="1513320976304" updateReferences="true"/>
+</session>

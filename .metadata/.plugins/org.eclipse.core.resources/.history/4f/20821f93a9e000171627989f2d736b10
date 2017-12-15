@@ -1,0 +1,24 @@
+spring.application.name=zuul-server
+server.port=8080
+
+eureka.client.serviceUrl.defaultZone=http://localhost:8888/eureka/
+
+spring.cloud.config.label=master
+spring.cloud.config.profile=dev
+spring.cloud.config.uri= http://localhost:9999/
+
+spring.cloud.config.discovery.enabled=true
+spring.cloud.config.discovery.serviceId=config-server
+
+spring.rabbitmq.host=localhost
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=wmhuang
+spring.rabbitmq.password=wmhuang
+
+management.security.enabled=false
+
+zuul.routes.api-a.path= /api-a/**
+      serviceId: service-ribbon
+    api-b:
+      path: /api-b/**
+      serviceId: service-feign

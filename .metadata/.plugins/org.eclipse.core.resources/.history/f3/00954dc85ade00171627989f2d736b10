@@ -1,0 +1,6 @@
+spring.cloud.config.uri=localhost:8888
+spring.cloud.config.name=cloud-config
+spring.application.name=cloud-config
+spring.cloud.config.profile=dev
+
+server.port=8081

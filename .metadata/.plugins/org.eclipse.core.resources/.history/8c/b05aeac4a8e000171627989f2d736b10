@@ -1,0 +1,2 @@
+spring.application.name=zuul-server
+spring.profiles.active=test

@@ -1,0 +1,2 @@
+spring.application.name=abc
+spring.profiles.active=dev

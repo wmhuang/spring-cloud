@@ -1,0 +1,10 @@
+server.port=8888
+spring.cloud.config.server.git.uri=file://Users/whthomas/config-repo
+
+spring.application.name=configserver
+spring.cloud.config.uri=http://localhost:8888
+
+\u4F5C\u8005\uFF1Awhthomas
+\u94FE\u63A5\uFF1Ahttp://www.jianshu.com/p/69dea19abf04
+\u4F86\u6E90\uFF1A\u7B80\u4E66
+\u8457\u4F5C\u6743\u5F52\u4F5C\u8005\u6240\u6709\u3002\u5546\u4E1A\u8F6C\u8F7D\u8BF7\u8054\u7CFB\u4F5C\u8005\u83B7\u5F97\u6388\u6743\uFF0C\u975E\u5546\u4E1A\u8F6C\u8F7D\u8BF7\u6CE8\u660E\u51FA\u5904\u3002

@@ -1,0 +1,22 @@
+spring.application.name=config-server
+server.port=9999
+
+
+#spring.cloud.config.server.git.uri=https://github.com/wmhuang/SpringcloudConfig
+#spring.cloud.config.server.git.searchPaths=respo
+#spring.cloud.config.label=master
+#spring.cloud.config.server.git.username=wmhuang
+#spring.cloud.config.server.git.password=huang2580GUN
+
+#spring.profiles.active=native
+#spring.cloud.config.server.native.searchLocations=classpath:/configFiles/
+
+spring.profiles.active=subversion
+spring.cloud.config.server.svn.uri= https://localhost:2222/svn/cloud-config/
+spring.cloud.config.server.svn.username=wmhuang
+spring.cloud.config.server.svn.password=wmhuang
+spring.cloud.config.server.default-label=trunk
+
+
+
+eureka.client.serviceUrl.defaultZone=http://localhost:8888/eureka/

@@ -1,0 +1,7 @@
+server.port=8888
+#spring.cloud.config.server.git.uri=file:///D:/workspace_1211/properties 
+spring.profiles.active=native 
+spring.cloud.config.server.search-locations=file:///D:/workspace_1211/properties  
+
+spring.application.name=configserver1
+spring.cloud.config.uri=http://localhost:8888
